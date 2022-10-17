@@ -1,0 +1,61 @@
+#puppies {
+    height: 400px;
+    width: 300px;
+}
+
+#font {
+    font-size: 24pt;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+#links {
+    font-size: 24pt;
+    border: 4px solid black;
+    background-color: tan;
+    text-decoration: none;
+    color: black;
+}
+
+.title {
+    font-size: 60pt;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#name {
+    font-size: 20pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: baseline;
+    text-decoration: underline;
+}
+
+body {
+    background-color: lightyellow;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items:flex-start; 
+    margin: 1%;
+    padding: 1%;
+
+}
+
+.puppyBox {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding: 1%;
+    margin: 1%;
+}
+
+#breed {
+    font-size: 12pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+    
+}
